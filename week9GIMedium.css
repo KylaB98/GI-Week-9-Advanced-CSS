@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(35, 162, 208);
+}
+
+.container {
+    max-width: 1500px;
+    margin: 100px auto;
+    background: whitesmoke;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.item {
+    background: white;
+    margin: 15px;
+    padding: 20px;
+    border: rgb(133, 133, 133) 2px solid;
+    font-size: 20px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    padding: 5px;
+    text-align: center;
+}
+
+img{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 250px;
+}    

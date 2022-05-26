@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: white;
+}
+
+.container {
+    margin: 100px auto;
+    padding: 10px;
+    display: grid;
+    width:  1200px auto;
+    height: 800px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.item {
+    background: white;
+}
+
+.item:nth-of-type(1) {
+    background-image: url(flag.jpeg);
+    background-size: 800px 500px;
+    background-repeat: no repeat;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 7;
+}
+
+.item:nth-of-type(2) {
+    background: red;
+    grid-column: 3 / 6;
+}
+
+.item:nth-of-type(3) {
+    background: white;
+    grid-column: 3 / 6;
+}
+
+.item:nth-of-type(4) {
+    background: red;
+    grid-column: 3 / 6;
+}
+
+.item:nth-of-type(5) {
+    background: white;
+    grid-column: 3 / 6;
+}
+
+.item:nth-of-type(6) {
+    background: red;
+    grid-column: 3 / 6;
+}
+
+.item:nth-of-type(7) {
+    background: white;
+    grid-column: 3 / 6;
+}
+
+.item:nth-of-type(8) {
+    background: red;
+    grid-column: 3 / 6;
+}
+
+.item:nth-of-type(9) {
+    background: white;
+    grid-column: 1 / span 5;
+}
+
+.item:nth-of-type(10) {
+    background: red;
+    grid-column: 1 / span 5;
+}
+
+.item:nth-of-type(11) {
+    background: white;
+    grid-column: 1 / span 5;
+}
+
+.item:nth-of-type(12) {
+    background: red;
+    grid-column: 1 / span 5;
+}
+
+.item:nth-of-type(13) {
+    background: white;
+    grid-column: 1 / span 5;
+}
+
+.item:nth-of-type(14) {
+    background: red;
+    grid-column: 1 / span 5;
+}
